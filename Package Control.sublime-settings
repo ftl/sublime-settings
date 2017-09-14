@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"Git",
 		"JsFormat",
 		"Package Control"
 	]
