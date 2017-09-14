@@ -1,0 +1,7 @@
+// These settings override both User and Default settings for the Python syntax
+{
+    "translate_tabs_to_spaces": true,
+    "detect_indentation": false,
+    "fallback_encoding": "UTF-8",
+    "rulers": [72, 79],
+}
