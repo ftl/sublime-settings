@@ -3,5 +3,6 @@
 	{ "keys": ["ctrl+alt+down"], "command": "duplicate_line" },	
 	{ "keys": ["ctrl+alt+up"], "command": "duplicate_line" },	
 	{ "keys": ["alt+up"], "command": "swap_line_up" },	
-	{ "keys": ["alt+down"], "command": "swap_line_down" },	
+	{ "keys": ["alt+down"], "command": "swap_line_down" },
+	{ "keys": ["ctrl+shift+d"], "command": "find_under_expand" },
 ]
