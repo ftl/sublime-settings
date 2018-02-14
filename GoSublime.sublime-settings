@@ -5,4 +5,6 @@
 	},
 	
 	"shell": ["/bin/bash", "--login", "-c", "$CMD"],
+
+	"fmt_cmd": ["goimports"],
 }
