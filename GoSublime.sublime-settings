@@ -7,4 +7,18 @@
 	"shell": ["/bin/bash", "--login", "-c", "$CMD"],
 
 	"fmt_cmd": ["goimports"],
+
+	"autocomplete_live_hint": true,
+
+	"comp_lint_enabled": true,
+
+	"comp_lint_commands": [
+	    {"cmd": ["golint *.go"], "shell": true},
+	    {"cmd": ["go", "vet"]},
+		{"cmd": ["go", "install"]},
+	],
+
+	"on_save": [
+	    {"cmd": "gs_comp_lint"}
+	],
 }
