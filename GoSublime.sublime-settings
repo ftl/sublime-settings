@@ -15,7 +15,6 @@
 	"comp_lint_commands": [
 	    {"cmd": ["golint *.go"], "shell": true},
 	    {"cmd": ["go", "vet"]},
-		{"cmd": ["go", "install"]},
 	],
 
 	"on_save": [
