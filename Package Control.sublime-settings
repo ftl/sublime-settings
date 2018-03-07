@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"Emoji",
 		"Git",
 		"GitGutter",
 		"GoSublime",
